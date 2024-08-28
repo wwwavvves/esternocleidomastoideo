@@ -1,3 +1,23 @@
 body {
   font-family: "Playfair Display", serif !important;
 }
+
+.container {
+  margin: 20px;
+}
+
+.layout {
+  margin-bottom: 40px;
+}
+
+.under-construction {
+  font-weight: bold;
+}
+
+.project-description{
+  margin-top: 20px;
+}
+
+img {
+  border: 1px solid black;
+}
