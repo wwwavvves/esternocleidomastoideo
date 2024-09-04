@@ -1,0 +1,89 @@
+:root {
+  --off-black: #28282a;
+}
+
+body {
+  font-family: "Playfair Display", serif !important;
+  color: var(--off-black) !important;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+nav,
+footer {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  left: 0;
+  right: 0;
+
+  a {
+    text-decoration: none;
+    color: var(--off-black);
+  }
+}
+
+nav {
+  top: 0;
+}
+
+footer {
+  bottom: 0;
+}
+
+nav > *,
+footer > * {
+  padding: 10px;
+}
+
+.inner-nav {
+  display: flex;
+  column-gap: 10px;
+}
+
+.background {
+  background-image: url(../images/est.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80vh;
+  position: fixed;
+  z-index: -10;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.3;
+  top: 0;
+}
+
+.hero-text {
+  font-size: 40px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 60px 0;
+}
+
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  border: 2px solid black;
+  text-align: center;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+}
+
+.wwwvvv {
+  width: 600px;
+  height: 400px;
+}
+
+.wave {
+  stroke: #6167ff;
+  stroke-width: 10px;
+  stroke-linecap: round;
+  fill: none;
+}
