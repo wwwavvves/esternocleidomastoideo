@@ -1,6 +1,6 @@
 // Make waves
 let xs = [];
-for (var i = 0; i <= 500; i++) {
+for (var i = 0; i <= 300; i++) {
   xs.push(i);
 }
 
@@ -21,7 +21,7 @@ function animate() {
       })
       .join(" L");
 
-  document.querySelector(".wave").setAttribute("d", wave);
+  document.querySelector(".wave-path").setAttribute("d", wave);
 
   t += 0.5;
 
