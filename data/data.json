@@ -1,0 +1,82 @@
+{
+  "artists": [
+    {
+      "id": 1,
+      "name": "Oneohtrix Point Never",
+      "bio": "",
+      "pictures": []
+    },
+    {
+      "id": 2,
+      "name": "Félicia Atkinson",
+      "bio": "",
+      "pictures": []
+    },
+    {
+        "id": 3,
+        "name": "33EMYBW",
+        "bio": "",
+        "pictures": []
+    },
+    {
+        "id": 4,
+        "name": "Aïsha Devi",
+        "bio": "",
+        "pictures": []
+    },
+    {
+        "id": 5,
+        "name": "Varg&sup2;TM",
+        "bio": "",
+        "pictures": []
+    },
+    {
+        "id": 6,
+        "name": "Croatian Amor",
+        "bio": "",
+        "pictures": []
+    },
+    {
+        "id": 7,
+        "name": "Eartheater",
+        "bio": "",
+        "pictures": []
+    },
+    {
+        "id": 8,
+        "name": "Gonçalo Penas",
+        "bio": "",
+        "pictures": []
+    },
+    {
+        "id": 9,
+        "name": "Iona Fortune",
+        "bio": "",
+        "pictures": []
+    },
+    {
+        "id": 10,
+        "name": "Fatima Al Qadiri",
+        "bio": "",
+        "pictures": []
+    },
+    {
+        "id": 11,
+        "name": "D.K.",
+        "bio": "",
+        "pictures": []
+    },
+    {
+        "id": 12,
+        "name": "KhalilH2OP",
+        "bio": "",
+        "pictures": []
+    },
+    {
+        "id": 13,
+        "name": "Aho Ssan",
+        "bio": "",
+        "pictures": []
+    }
+  ]
+}
