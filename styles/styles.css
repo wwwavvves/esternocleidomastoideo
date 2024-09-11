@@ -143,13 +143,27 @@ footer > * {
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
+  transition: max-height 0.5s ease;
 }
 
 .artist-id {
   font-size: 24px;
+  margin: 0 20px;
 }
 
 .artist-name {
   font-size: 72px;
+}
+
+.icon {
+  margin-right: 20px;
+  transition: transform 0.5s ease; /* Smooth transition for rotation or color */
+}
+
+.accordion-btn.active .icon {
+  transform: rotate(180deg); /* Rotate the icon when the accordion is expanded */
+}
+
+.panel p {
+  font-size: 48px;
 }
