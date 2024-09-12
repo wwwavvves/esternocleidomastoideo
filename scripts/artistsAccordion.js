@@ -24,14 +24,19 @@ function displayArtists(artists) {
       let html = `
         <div class="acc-item">
               <button class="accordion-btn">
-                <div class="artist-name"><span class="artist-id">${elementIdPadded}</span>${element.name}</div>
+                <div class="artist-name"><span class="artist-id">${elementIdPadded}</span>${
+        element.name
+      }</div>
                 <i class="icon fa-solid fa-chevron-down"></i>
               </button>
               <div class="panel">
                 <div class="gallery">
-                  <img src="../images/artists/opn/opn1.jpeg" class="img-drag" width="500">
-                  <img src="../images/artists/opn/opn2.jpeg" class="img-drag" width="500">
-                  <img src="../images/artists/opn/opn3.jpeg" class="img-drag" width="500">
+                  ${element.pictures
+                    .map(
+                      (picture) =>
+                        `<img src="${picture}" class="img-drag" width="500">`
+                    )
+                    .join("")}
                 </div>
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis

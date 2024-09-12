@@ -4,79 +4,79 @@
       "id": 1,
       "name": "Oneohtrix Point Never",
       "bio": "",
-      "pictures": []
+      "pictures": ["../images/artists/opn/opn1.jpeg", "../images/artists/opn/opn2.jpeg", "../images/artists/opn/opn3.jpeg", "../images/artists/opn/opn4.jpeg", "../images/artists/opn/opn5.jpeg", "../images/artists/opn/opn6.jpeg"]
     },
     {
       "id": 2,
       "name": "Félicia Atkinson",
       "bio": "",
-      "pictures": []
+      "pictures": ["../images/artists/feliciaAtkinson/feliciaAtkinson1.jpg", "../images/artists/feliciaAtkinson/feliciaAtkinson2.jpg"]
     },
     {
         "id": 3,
         "name": "33EMYBW",
         "bio": "",
-        "pictures": []
+        "pictures": ["../images/artists/33emybw/33emybw1.jpg", "../images/artists/33emybw/33emybw2.jpg", "../images/artists/33emybw/33emybw3.jpg", "../images/artists/33emybw/33emybw4.jpg"]
     },
     {
         "id": 4,
         "name": "Aïsha Devi",
         "bio": "",
-        "pictures": []
+        "pictures": ["../images/artists/aishaDevi/aishaDevi1.jpg", "../images/artists/aishaDevi/aishaDevi2.jpg", "../images/artists/aishaDevi/aishaDevi3.jpg"]
     },
     {
         "id": 5,
         "name": "Varg&sup2;TM",
         "bio": "",
-        "pictures": []
+        "pictures": ["../images/artists/varg2tm/varg2tm1.jpg", "../images/artists/varg2tm/varg2tm2.jpg", "../images/artists/varg2tm/varg2tm3.jpg"]
     },
     {
         "id": 6,
         "name": "Croatian Amor",
         "bio": "",
-        "pictures": []
+        "pictures": ["../images/artists/croatianAmor/croatianAmor1.jpg", "../images/artists/croatianAmor/croatianAmor2.jpg", "../images/artists/croatianAmor/croatianAmor3.jpg", "../images/artists/croatianAmor/croatianAmor4.jpg"]
     },
     {
         "id": 7,
         "name": "Eartheater",
         "bio": "",
-        "pictures": []
+        "pictures": ["../images/artists/eartheater/eartheater1.jpg", "../images/artists/eartheater/eartheater2.jpg", "../images/artists/eartheater/eartheater3.jpg"]
     },
     {
         "id": 8,
         "name": "Gonçalo Penas",
         "bio": "",
-        "pictures": []
+        "pictures": ["../images/artists/goncaloPenas/goncaloPenas1.jpg"]
     },
     {
         "id": 9,
         "name": "Iona Fortune",
         "bio": "",
-        "pictures": []
+        "pictures": ["../images/artists/ionaFortune/ionaFortune1.jpg", "../images/artists/ionaFortune/ionaFortune1.jpg"]
     },
     {
         "id": 10,
         "name": "Fatima Al Qadiri",
         "bio": "",
-        "pictures": []
+        "pictures": ["../images/artists/fatimaAlQadiri/fatimaAlQadiri1.jpg", "../images/artists/fatimaAlQadiri/fatimaAlQadiri2.jpg", "../images/artists/fatimaAlQadiri/fatimaAlQadiri3.jpg"]
     },
     {
         "id": 11,
         "name": "D.K.",
         "bio": "",
-        "pictures": []
+        "pictures": ["../images/artists/dk/dk1.jpg", "../images/artists/dk/dk2.jpg"]
     },
     {
         "id": 12,
         "name": "KhalilH2OP",
         "bio": "",
-        "pictures": []
+        "pictures": ["../images/artists/khalilh2op/khalilh2op1.jpg", "../images/artists/khalilh2op/khalilh2op2.jpg", "../images/artists/khalilh2op/khalilh2op3.jpg", "../images/artists/khalilh2op/khalilh2op4.jpg"]
     },
     {
         "id": 13,
         "name": "Aho Ssan",
         "bio": "",
-        "pictures": []
+        "pictures": ["../images/artists/ahoSsan/ahoSsan1.jpg", "../images/artists/ahoSsan/ahoSsan2.jpg", "../images/artists/ahoSsan/ahoSsan3.jpg"]
     }
   ]
 }
