@@ -30,7 +30,7 @@ function displayArtists(artists) {
                 <i class="icon fa-solid fa-chevron-down"></i>
               </button>
               <div class="panel">
-                <div class="gallery">
+                <div class="gallery draggable">
                   ${element.pictures
                     .map(
                       (picture) =>
@@ -57,13 +57,47 @@ function displayArtists(artists) {
     acc[i].addEventListener("click", function () {
       this.classList.toggle("active");
       const panel = this.nextElementSibling;
-      const icon = this.querySelector(".icon");
 
       if (panel.style.maxHeight) {
+        panel.style.overflow = "hidden";
         panel.style.maxHeight = null;
       } else {
         panel.style.maxHeight = panel.scrollHeight + "px";
+        panel.style.overflow = "visible";
       }
     });
   }
+
+      function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+      }
+
+      $.fn.randomOrder = function (animate) {
+        this.each(function () {
+          var image = $(this);
+
+          // Viewport Dimensions
+          var vpHeight = $(window).height();
+          var vpWidth = $(window).width();
+
+          // Image Position
+          var xPos = getRandomInt(0, vpWidth - image.width());
+          var yPos = getRandomInt(0, vpHeight - image.height());
+          var zIndex = getRandomInt(0, 13);
+
+          // Animation Duration
+          if (animate) var dur = 100;
+          else var dur = 0;
+
+          image.animate({ left: xPos, top: yPos, "z-index": zIndex }, dur);
+        });
+      };
+
+      //Setup
+      $(".img-drag").randomOrder(false);
+      $(".img-drag").draggable({ stack: ".img-drag" });
+      /*
+    WORKS, BUT IN THE END IT FEELS KINDA RESTRICTIVE, BYEEE*/
+    // $('.img-drag').draggable({ containment: ".accordion-body", scroll: false });
+    
 }

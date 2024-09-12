@@ -52,13 +52,13 @@
         "id": 9,
         "name": "Iona Fortune",
         "bio": "",
-        "pictures": ["../images/artists/ionaFortune/ionaFortune1.jpg", "../images/artists/ionaFortune/ionaFortune1.jpg"]
+        "pictures": ["../images/artists/ionaFortune/ionaFortune1.jpg", "../images/artists/ionaFortune/ionaFortune2.jpg"]
     },
     {
         "id": 10,
         "name": "Fatima Al Qadiri",
         "bio": "",
-        "pictures": ["../images/artists/fatimaAlQadiri/fatimaAlQadiri1.jpg", "../images/artists/fatimaAlQadiri/fatimaAlQadiri2.jpg", "../images/artists/fatimaAlQadiri/fatimaAlQadiri3.jpg"]
+        "pictures": ["../images/artists/fatimaAlQadiri/fatimaAlQadiri1.jpg", "../images/artists/fatimaAlQadiri/fatimaAlQadiri2.jpg"]
     },
     {
         "id": 11,
