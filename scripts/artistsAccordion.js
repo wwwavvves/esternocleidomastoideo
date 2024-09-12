@@ -28,15 +28,17 @@ function displayArtists(artists) {
                 <i class="icon fa-solid fa-chevron-down"></i>
               </button>
               <div class="panel">
+                <div class="gallery">
+                  <img src="../images/artists/opn/opn1.jpeg" class="img-drag" width="500">
+                  <img src="../images/artists/opn/opn2.jpeg" class="img-drag" width="500">
+                  <img src="../images/artists/opn/opn3.jpeg" class="img-drag" width="500">
+                </div>
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
                   velit esse pariatur, accusamus eos consequuntur ex voluptatibus
                   voluptatem adipisci officiis labore accusantium ut exercitationem,
                   at laboriosam minus, sint perferendis repudiandae architecto alias
-                  impedit doloribus. Quasi impedit explicabo molestiae cupiditate
-                  ratione? Ex voluptatibus repellat voluptates velit inventore
-                  beatae non eaque officia nulla asperiores, perferendis saepe
-                  obcaecati omnis!
+                  impedit doloribus.
                 </p>
               </div>
         </div>
@@ -44,7 +46,7 @@ function displayArtists(artists) {
       accordion.insertAdjacentHTML("afterbegin", html);
     });
 
-  // After inserting, attach event listeners to the accordion buttons
+  // Attach the event listeners for the accordion buttons
   const acc = document.getElementsByClassName("accordion-btn");
   for (let i = 0; i < acc.length; i++) {
     acc[i].addEventListener("click", function () {

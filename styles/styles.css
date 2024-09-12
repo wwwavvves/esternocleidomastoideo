@@ -118,7 +118,6 @@ footer > * {
     margin: 60px 0;
 }
 
-/* Style the buttons that are used to open and close the accordion panel */
 .accordion-btn {
   display: flex;
   justify-content: space-between;
@@ -133,12 +132,6 @@ footer > * {
   transition: max-height 0.2s ease-out;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-/* .active, .accordion-btn:hover {
-  background-color: #ccc;
-} */
-
-/* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 18px;
   max-height: 0;
