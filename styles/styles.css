@@ -46,6 +46,23 @@ footer > * {
   background-color: none;
 }
 
+.modal-header {
+  border: none !important;
+}
+
+.btn-close {
+  font-size: 72px;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 72px;
+  line-height: 1.2;
+}
+
 .login-btn {
   cursor: not-allowed;
 }
