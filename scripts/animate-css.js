@@ -24,14 +24,4 @@ window.addEventListener("load", (event) => {
       link.classList.remove(animations[randomNumbersList[i]]);
     });
   })
-
-//   for (i = 0; i < randomNumbersList.length; i++) {
-//     console.log(randomNumbersList[i]);
-//     // link.addEventListener("mouseover", (event) => {
-//     //   link.classList.add(animations[randomNumber]);
-//     // });
-//     // link.addEventListener("mouseout", (event) => {
-//     //   link.classList.remove(animations[randomNumber]);
-//     // });
-//   }
 });

@@ -20,19 +20,61 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
       rel="stylesheet"
     />
+    <!-- animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>e/s/t</title>
   </head>
   <body>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <a href="./html/about.html">about</a>
+            <a href="./html/artists.html">artists</a>
+            <a href="#">events</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="background"></div>
     <!-- NAV -->
     <div class="container-fluid">
       <nav>
         <div><a href="./home.html">e/s/t</a></div>
         <div class="inner-nav">
-          <div>menu</div>
+          <!-- MENU MODAL -->
+          <div>
+            <!-- Button trigger modal -->
+            <div
+              type="button"
+              class="btn-menu"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              menu
+            </div>
+          </div>
           <div>store</div>
         </div>
-        <div>login</div>
+        <div class="login-btn">login</div>
       </nav>
     </div>
     <!-- MAIN -->
@@ -41,20 +83,27 @@
         <p>
           <strong>esternocleidomastoideo</strong> you turn you burn body vex
           vexed unvexed release you turn to stone you break implode rewild
-          rewind rebuild stretch snap tear you break apart glue stitch back
-          together unveil body building a body is a building is a line what is
-          align Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          Veritatis, nisi quaerat, sit hic ut non voluptatibus ipsam commodi eos
-          eaque, sint maiores ducimus fugiat dicta. Sunt sequi inventore minima
-          aut illum nisi repellat quam tempora quaerat cum, consequatur vitae
-          soluta aperiam quibusdam. Alias ratione repellat hic vitae optio minus
-          nobis corporis saepe consequuntur dignissimos architecto aliquam
-          similique dolorum illo nulla, quibusdam velit. Earum odit at eaque
-          optio, ipsum culpa quaerat dolorum maiores accusamus minus voluptas
-          numquam. Praesentium laborum soluta ex temporibus, placeat modi
-          reiciendis necessitatibus odio delectus aliquid illo, cumque, iusto
-          eius blanditiis voluptates labore beatae dolorem mollitia nisi
-          officia?
+          rewind rebuild
+        </p>
+        <div class="stretch animate__animated">
+          <a href="./html/stretch-festival.html" class="" target="_blank"
+            >stretch</a
+          >
+        </div>
+        <p>
+          snap tear you break apart glue stitch back together unveil body
+          building a body is a building is a line what is align Lorem ipsum
+          dolor sit, amet consectetur adipisicing elit. Veritatis, nisi quaerat,
+          sit hic ut non voluptatibus ipsam commodi eos eaque, sint maiores
+          ducimus fugiat dicta. Sunt sequi inventore minima aut illum nisi
+          repellat quam tempora quaerat cum, consequatur vitae soluta aperiam
+          quibusdam. Alias ratione repellat hic vitae optio minus nobis corporis
+          saepe consequuntur dignissimos architecto aliquam similique dolorum
+          illo nulla, quibusdam velit. Earum odit at eaque optio, ipsum culpa
+          quaerat dolorum maiores accusamus minus voluptas numquam. Praesentium
+          laborum soluta ex temporibus, placeat modi reiciendis necessitatibus
+          odio delectus aliquid illo, cumque, iusto eius blanditiis voluptates
+          labore beatae dolorem mollitia nisi officia?
         </p>
       </div>
     </div>
@@ -90,6 +139,7 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="./scripts/stretch.js"></script>
     <script src="./scripts/wave.js"></script>
     <script src="./scripts/draggable-div.js"></script>
   </body>

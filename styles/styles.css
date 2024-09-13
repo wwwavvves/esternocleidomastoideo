@@ -41,6 +41,15 @@ footer > * {
   column-gap: 10px;
 }
 
+.btn-menu{
+  font-size: 22px;
+  background-color: none;
+}
+
+.login-btn {
+  cursor: not-allowed;
+}
+
 .background {
   background-image: url(../images/est.svg);
   background-repeat: no-repeat;
@@ -61,6 +70,27 @@ footer > * {
 }
 
 /* REVIEW TAGS */
+.hero-text p {
+  display: inline;
+}
+
+.stretch {
+  text-decoration: underline;
+  display: inline-block;
+}
+
+
+.gif-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.stretch-gif {
+  height: 98vh;
+}
+
 #mydiv {
   position: absolute;
   z-index: 9;
