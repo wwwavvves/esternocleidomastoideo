@@ -1,8 +1,9 @@
-var paths = document.querySelectorAll("svg path"),
-  i = 0;
+let svg = document.getElementById("est-svg");
+let paths = svg.querySelectorAll("path");
+let j = 0;
 
 paths.forEach(function (item, index) {
-  i++;
+  j++;
 
   var pathLength = item.getTotalLength(),
     speed = 100;
@@ -13,16 +14,16 @@ paths.forEach(function (item, index) {
   if (index == 0) {
     item.innerHTML =
       "<animate id='a" +
-      i +
+      j +
       "' attributeName='stroke-dashoffset' begin='0s' dur='" +
       pathLength / speed +
       "'s to='0' fill='freeze' />";
   } else {
     item.innerHTML =
       "<animate id='a" +
-      i +
+      j +
       "' attributeName='stroke-dashoffset' begin='a" +
-      (i - 1) +
+      (j - 1) +
       ".end' dur='" +
       pathLength / speed +
       "'s to='0' fill='freeze' />";

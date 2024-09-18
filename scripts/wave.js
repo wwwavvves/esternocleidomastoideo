@@ -1,4 +1,3 @@
-// Make waves
 let xs = [];
 for (var i = 0; i <= 300; i++) {
   xs.push(i);

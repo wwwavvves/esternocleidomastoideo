@@ -9,8 +9,8 @@ body {
 }
 
 a {
-    text-decoration: none !important;
-    color: var(--off-black) !important;
+  text-decoration: none !important;
+  color: var(--off-black) !important;
 }
 
 nav,
@@ -41,7 +41,7 @@ footer > * {
   column-gap: 10px;
 }
 
-.btn-menu{
+.btn-menu {
   font-size: 22px;
   background-color: none;
 }
@@ -67,20 +67,29 @@ footer > * {
   cursor: not-allowed;
 }
 
+.hero-section {
+  width: 100%;
+}
+
 .background {
-  background-image: url(../images/est.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 80vh;
+  display: flex;
   position: fixed;
   z-index: -10;
-  width: 100vw;
-  height: 100vh;
   top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+
+  svg {
+    max-height: 90vh;
+    max-width: 90vw;
+  }
 }
 
 .hero-text {
-  font-size: 40px;
+  font-size: 30px;
   line-height: 1.2;
   text-align: center;
   margin: 60px 0;
@@ -95,7 +104,6 @@ footer > * {
   text-decoration: underline;
   display: inline-block;
 }
-
 
 .gif-container {
   display: flex;
@@ -163,7 +171,7 @@ footer > * {
 
 /* ARTISTS */
 .artists-container {
-    margin: 60px 0;
+  margin: 60px 0;
 }
 
 .accordion-btn {
@@ -201,7 +209,9 @@ footer > * {
 }
 
 .accordion-btn.active .icon {
-  transform: rotate(180deg); /* Rotate the icon when the accordion is expanded */
+  transform: rotate(
+    180deg
+  ); /* Rotate the icon when the accordion is expanded */
 }
 
 .accordion-btn.active {
