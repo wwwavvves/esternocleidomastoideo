@@ -96,8 +96,5 @@ function displayArtists(artists) {
       //Setup
       $(".img-drag").randomOrder(false);
       $(".img-drag").draggable({ stack: ".img-drag" });
-      /*
-    WORKS, BUT IN THE END IT FEELS KINDA RESTRICTIVE, BYEEE*/
     // $('.img-drag').draggable({ containment: ".accordion-body", scroll: false });
-    
 }

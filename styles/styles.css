@@ -116,18 +116,35 @@ footer > * {
   height: 98vh;
 }
 
-#mydiv {
-  position: absolute;
-  z-index: 9;
-  border: 2px solid black;
-  text-align: center;
-  width: 300px;
+#news-container {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+  touch-action: none;
+  position: relative;
 }
 
-#mydivheader {
+.item {
+  width: 300px;
+  height: auto;
+  border: 2px solid black;
+  background-color: white;
+  touch-action: none;
+  user-select: none;
+  position: absolute;
+  font-size: 14px;
   padding: 10px;
+}
+
+.active {
+  z-index: 100;
+}
+
+.item:hover {
   cursor: move;
-  background-color: #fff;
 }
 
 .wave-svg {

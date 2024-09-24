@@ -29,5 +29,5 @@ paths.forEach(function (item, index) {
       "'s to='0' fill='freeze' />";
   }
 
-  console.log(index, pathLength, item.innerHTML);
+  // console.log(index, pathLength, item.innerHTML);
 });
