@@ -3,79 +3,79 @@
     {
       "id": 1,
       "name": "Oneohtrix Point Never",
-      "bio": "",
+      "bio": "Oneohtrix Point Never is the project of Daniel Lopatin, experimental musician and producer known for blending ambient, electronic, and classical elements into his work. His forward-thinking approach to sound has led him to collaborate with major artists and score films, including the acclaimed <i>Uncut Gems</i>. Lopatin’s music often explores themes of memory, technology, and identity.",
       "pictures": ["../images/artists/opn/opn1.jpeg", "../images/artists/opn/opn2.jpeg", "../images/artists/opn/opn3.jpeg", "../images/artists/opn/opn4.jpeg", "../images/artists/opn/opn5.jpeg", "../images/artists/opn/opn6.jpeg"]
     },
     {
       "id": 2,
       "name": "Félicia Atkinson",
-      "bio": "",
+      "bio": "Félicia Atkinson is a French multi-disciplinary artist whose work spans sound art, poetry, and visual installations. Her music, often described as meditative and abstract, incorporates field recordings, spoken word, and delicate electronic textures. Atkinson’s thoughtful compositions explore themes of nature, intimacy, and the passage of time, making her a leading figure in experimental music.",
       "pictures": ["../images/artists/feliciaAtkinson/feliciaAtkinson1.jpg", "../images/artists/feliciaAtkinson/feliciaAtkinson2.jpg"]
     },
     {
         "id": 3,
         "name": "33EMYBW",
-        "bio": "",
+        "bio": "33EMYBW is a Shanghai-based producer and a central figure in China’s avant-garde electronic music scene. Known for her bold fusion of deconstructed club sounds, experimental rhythms, and traditional Chinese instruments, 33EMYBW constantly pushes the boundaries of genre and form. Her unique sonic palette reflects the vibrant underground music culture in China.",
         "pictures": ["../images/artists/33emybw/33emybw1.jpg", "../images/artists/33emybw/33emybw2.jpg", "../images/artists/33emybw/33emybw3.jpg", "../images/artists/33emybw/33emybw4.jpg"]
     },
     {
         "id": 4,
         "name": "Aïsha Devi",
-        "bio": "",
+        "bio": "Aïsha Devi is a Swiss-Nepalese producer and vocalist whose work bridges electronic music with spiritual and metaphysical concepts. Her hypnotic soundscapes draw from a diverse range of influences, including sacred chants and electronic bass music. Devi’s live performances often incorporate immersive visuals, creating a transformative experience for her audiences.",
         "pictures": ["../images/artists/aishaDevi/aishaDevi1.jpg", "../images/artists/aishaDevi/aishaDevi2.jpg", "../images/artists/aishaDevi/aishaDevi3.jpg"]
     },
     {
         "id": 5,
         "name": "Varg&sup2;TM",
-        "bio": "",
+        "bio": "Varg&sup2;TM, real name Jonas Rönnberg, is a Swedish electronic musician known for his atmospheric and emotionally charged soundscapes. His work traverses genres, including ambient, techno, and experimental, often evoking vast, desolate landscapes. Varg2TM is a prominent figure in the Scandinavian underground music scene and continues to redefine electronic music.",
         "pictures": ["../images/artists/varg2tm/varg2tm1.jpg", "../images/artists/varg2tm/varg2tm2.jpg", "../images/artists/varg2tm/varg2tm3.jpg"]
     },
     {
         "id": 6,
         "name": "Croatian Amor",
-        "bio": "",
+        "bio": "Croatian Amor is the experimental project of Danish artist Loke Rahbek, a key figure in Copenhagen’s Posh Isolation label. Rahbek’s work under this alias is known for its haunting ambient soundscapes and delicate explorations of love, communication, and isolation. Croatian Amor’s music blends digital and organic textures, creating a deeply emotive listening experience.",
         "pictures": ["../images/artists/croatianAmor/croatianAmor1.jpg", "../images/artists/croatianAmor/croatianAmor2.jpg", "../images/artists/croatianAmor/croatianAmor3.jpg", "../images/artists/croatianAmor/croatianAmor4.jpg"]
     },
     {
         "id": 7,
         "name": "Eartheater",
-        "bio": "",
+        "bio": "Eartheater is the performance art and music project of Alexandra Drewchin, based in New York City. Her work merges experimental electronic music with folk, classical, and avant-garde influences. Known for her ethereal voice and boundary-pushing performances, Eartheater’s music explores themes of femininity, nature, and transformation through a uniquely surreal lens.",
         "pictures": ["../images/artists/eartheater/eartheater1.jpg", "../images/artists/eartheater/eartheater2.jpg", "../images/artists/eartheater/eartheater3.jpg"]
     },
     {
         "id": 8,
         "name": "Gonçalo Penas",
-        "bio": "",
+        "bio": "Gonçalo Penas is an emerging electronic musician from Portugal, known for his intricate sound design and experimental compositions. His work often fuses organic sounds with digital production, resulting in a dynamic blend of rhythmic complexity and ambient atmospheres. Penas’s music reflects a deep engagement with urban environments and their sonic possibilities.",
         "pictures": ["../images/artists/goncaloPenas/goncaloPenas1.jpg"]
     },
     {
         "id": 9,
         "name": "Iona Fortune",
-        "bio": "",
+        "bio": "Iona Fortune is a Scottish composer and producer whose work focuses on creating ambient and meditative soundscapes. Inspired by Eastern philosophy and traditional Chinese music, her compositions blend modular synthesis with ancient tuning systems, resulting in deeply immersive, tranquil music. Fortune’s work is often described as a journey into introspection and spiritual exploration.",
         "pictures": ["../images/artists/ionaFortune/ionaFortune1.jpg", "../images/artists/ionaFortune/ionaFortune2.jpg"]
     },
     {
         "id": 10,
         "name": "Fatima Al Qadiri",
-        "bio": "",
+        "bio": "Fatima Al Qadiri is a Kuwaiti-born, Berlin-based electronic artist whose work often tackles socio-political themes, including global conflict, identity, and cultural memory. Drawing from a wide array of influences, including Middle Eastern music and contemporary electronic production, Al Qadiri creates soundscapes that are at once futuristic and reflective of her heritage.",
         "pictures": ["../images/artists/fatimaAlQadiri/fatimaAlQadiri1.jpg", "../images/artists/fatimaAlQadiri/fatimaAlQadiri2.jpg"]
     },
     {
         "id": 11,
         "name": "D.K.",
-        "bio": "",
+        "bio": "D.K. is a French-Vietnamese producer known for his explorations in ambient and experimental music. His compositions are often characterized by their spacious, introspective qualities, blending organic textures with electronic production. D.K.’s work invites listeners into serene, otherworldly spaces, making him a unique voice in the experimental music scene.",
         "pictures": ["../images/artists/dk/dk1.jpg", "../images/artists/dk/dk2.jpg"]
     },
     {
         "id": 12,
         "name": "KhalilH2OP",
-        "bio": "",
+        "bio": "KhalilH2OP is a rising experimental producer whose music fuses electronic beats with water-inspired themes. His sound is fluid and unpredictable, blending lo-fi hip-hop, ambient, and electronic styles. KhalilH2OP's innovative approach to production, coupled with his commitment to environmental sustainability, makes him a voice to watch in the experimental music world.",
         "pictures": ["../images/artists/khalilh2op/khalilh2op1.jpg", "../images/artists/khalilh2op/khalilh2op2.jpg", "../images/artists/khalilh2op/khalilh2op3.jpg", "../images/artists/khalilh2op/khalilh2op4.jpg"]
     },
     {
         "id": 13,
         "name": "Aho Ssan",
-        "bio": "",
+        "bio": "Aho Ssan is the alias of Paris-based composer Nicolas Audouin. His work delves into the intersection of identity, technology, and systemic structures, using digital distortion and synthetic soundscapes to create powerful, immersive experiences. His debut album <i>Simulacrum</i> explores themes of simulation and representation, pushing the boundaries of electronic music with both its sonic complexity and its conceptual rigor.",
         "pictures": ["../images/artists/ahoSsan/ahoSsan1.jpg", "../images/artists/ahoSsan/ahoSsan2.jpg", "../images/artists/ahoSsan/ahoSsan3.jpg"]
     }
   ]

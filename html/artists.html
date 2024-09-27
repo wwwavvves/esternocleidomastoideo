@@ -37,18 +37,61 @@
     <title>e/s/t</title>
   </head>
   <body>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <a href="../html/about.html">about</a>
+            <a href="../html/artists.html">artists</a>
+            <a href="#">events</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- NAV -->
     <div class="container-fluid">
       <nav>
         <div><a href="../home.html">e/s/t</a></div>
         <div class="inner-nav">
-          <div>menu</div>
+          <!-- MENU MODAL -->
+          <div>
+            <!-- Button trigger modal -->
+            <div
+              type="button"
+              class="btn-menu"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              menu
+            </div>
+          </div>
           <div>store</div>
         </div>
         <div>login</div>
       </nav>
     </div>
-    <div class="container artists-container">
+    <div class="container artists-container main-section">
+      <div aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../home.html">home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">artists</li>
+          </ol>
+        </div>
       <div class="accordion" id="accordionExample">
         <!-- ITEM -->
       </div>
@@ -58,7 +101,7 @@
     <!-- FOOTER -->
     <div class="container-fluid">
       <footer>
-        <div><a href="./html/about.html">about</a></div>
+        <div><a href="../html/about.html">about</a></div>
         <div>newsletter</div>
       </footer>
     </div>

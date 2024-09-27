@@ -21,36 +21,85 @@
       rel="stylesheet"
     />
     <!-- animate.css -->
-     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>about - e/s/t</title>
   </head>
   <body>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <a href="../html/about.html">about</a>
+            <a href="../html/artists.html">artists</a>
+            <a href="#">events</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- NAV -->
     <div class="container-fluid">
       <nav>
         <div><a href="../home.html">e/s/t</a></div>
         <div class="inner-nav">
-          <div>menu</div>
+          <!-- MENU MODAL -->
+          <div>
+            <!-- Button trigger modal -->
+            <div
+              type="button"
+              class="btn-menu"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              menu
+            </div>
+          </div>
           <div>store</div>
         </div>
         <div>login</div>
       </nav>
     </div>
 
-    <div class="container">
+    <div class="container main-section">
       <div class="about-container">
-        <h1>about</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
-          quibusdam dolorem praesentium tempora sint facere illo unde iste
-          eveniet aliquam fugiat, veritatis ut. Delectus blanditiis accusantium
-          eos ducimus, atque perferendis obcaecati incidunt facilis optio illo
-          placeat mollitia, culpa fugit aperiam ratione nesciunt ipsam sit
-          architecto fuga veniam non provident earum! Aperiam natus, ullam
-          dolorem ratione quos quidem iusto deserunt a.
+        <div aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../home.html">home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">about</li>
+          </ol>
+        </div>
+        <p class="est-bio">
+          <b>e/s/t</b> is a boundary-pushing collective of sonic
+          explorers, where sound defies convention and becomes a medium for
+          deeper expression. We are more than just a label; we are a platform
+          for avant-garde artists who blur the lines between music, art, and
+          philosophy, embracing the experimental and the unknown. We believe in music as an evolving language, one that speaks to
+          the complexities of the human condition. Our roster is a curated
+          selection of forward-thinking artists who transcend genres, from
+          ambient architects to deconstructed club innovators, each crafting
+          immersive soundscapes that challenge listeners to think, feel, and
+          experience music in new ways. We exist for the creators who dare to
+          push sonic and artistic boundaries. Whether through abstract
+          electronic compositions, meditative soundscapes, or visceral live
+          performances, our artists reshape the musical landscape by asking
+          questions and breaking the mold.
         </p>
         <div class="links">
           <div class="link animate__animated"><a href="#">email</a></div>
@@ -67,7 +116,7 @@
     <!-- FOOTER -->
     <div class="container-fluid">
       <footer>
-        <div><a href="./html/about.html">about</a></div>
+        <div><a href="../html/about.html">about</a></div>
         <div>newsletter</div>
       </footer>
     </div>

@@ -38,12 +38,8 @@ function displayArtists(artists) {
                     )
                     .join("")}
                 </div>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
-                  velit esse pariatur, accusamus eos consequuntur ex voluptatibus
-                  voluptatem adipisci officiis labore accusantium ut exercitationem,
-                  at laboriosam minus, sint perferendis repudiandae architecto alias
-                  impedit doloribus.
+                <p class="artist-bio">
+                ${element.bio}
                 </p>
               </div>
         </div>

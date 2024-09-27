@@ -4,9 +4,9 @@ stretch.addEventListener("mouseover", animateStretch);
 stretch.addEventListener("mouseout", stopStretch);
 
 function animateStretch() {
-    stretch.classList.add("animate__rubberBand");
+    stretch.classList.add("animate__rubberBand", "animate__repeat-1");
 }
 
 function stopStretch() {
-    stretch.classList.remove("animate__rubberBand");
+    stretch.classList.remove("animate__rubberBand", "animate__repeat-1");
 }
