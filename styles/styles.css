@@ -43,7 +43,6 @@ footer > * {
 
 .btn-menu {
   font-size: 22px;
-  background-color: none;
 }
 
 .modal-header {
@@ -51,7 +50,14 @@ footer > * {
 }
 
 .btn-close {
-  font-size: 72px;
+  font-size: 22px;
+  background-image: none !important;
+  width: auto !important;
+  padding: 0 20px !important;
+}
+
+.btn-close:focus {
+  box-shadow: none !important;
 }
 
 .modal-body {
