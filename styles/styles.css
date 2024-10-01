@@ -18,6 +18,7 @@ footer {
   display: flex;
   position: fixed;
   justify-content: space-between;
+  align-items: end;
   left: 0;
   right: 0;
   font-size: 22px;
@@ -177,6 +178,24 @@ footer > * {
 .breadcrumb > * {
   font-size: 12px;
 }
+
+/*test*/
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+}
+#newsletter-label {
+  text-align: right;
+}
+#email-field {
+  display: none;
+  outline: 0;
+  border: none;
+  border-bottom: 2px solid var(--off-black);
+  background-color: transparent;
+}
+/*test*/
+
 
 /* ABOUT */
 .about-container {
