@@ -20,21 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
       rel="stylesheet"
     />
-    <!-- font awesome -->
-    <script
-      src="https://kit.fontawesome.com/fd15819ebd.js"
-      crossorigin="anonymous"
-    ></script>
-
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script>
-    $(function () {
-      $(".draggable").draggable();
-    });
-  </script>
-
-    <title>e/s/t</title>
+    <title>events - e/s/t</title>
   </head>
   <body>
     <!-- Modal -->
@@ -53,7 +39,9 @@
               class="btn-close"
               data-bs-dismiss="modal"
               aria-label="Close"
-            >exit</button>
+            >
+              exit
+            </button>
           </div>
           <div class="modal-body">
             <a href="../html/about.html">about</a>
@@ -80,23 +68,23 @@
               menu
             </div>
           </div>
-          <div class="not-allowed">store</div>
+          <div>store</div>
         </div>
-        <div class="not-allowed">login</div>
+        <div>login</div>
       </nav>
     </div>
-    <div class="container artists-container main-section">
-      <div aria-label="breadcrumb">
+
+    <div class="container main-section">
+        <div aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="../home.html">home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">artists</li>
+            <li class="breadcrumb-item active" aria-current="page">events</li>
           </ol>
         </div>
-      <div class="accordion" id="accordionExample">
-        <!-- ITEM -->
-      </div>
+        <div class="events">
+            <!-- EVENTS -->
+        </div>
     </div>
-
 
     <!-- FOOTER -->
     <div class="container-fluid">
@@ -112,6 +100,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script src="../scripts/artistsAccordion.js"></script>
+    <script src="../scripts/events-list.js"></script>
   </body>
 </html>

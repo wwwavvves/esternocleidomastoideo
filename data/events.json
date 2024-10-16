@@ -1,0 +1,67 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Stretch festival",
+      "date": "TBA",
+      "time": "TBA",
+      "venue": "OHM",
+      "city": "Berlin",
+      "country": "Germany"
+    },
+    {
+      "id": 2,
+      "name": "Oneohtrix Point Never",
+      "date": "TBA",
+      "time": "TBA",
+      "venue": "Harpa",
+      "city": "Reykjavík",
+      "country": "Iceland"
+    },
+    {
+      "id": 3,
+      "name": "33EMYBW",
+      "date": "TBA",
+      "time": "TBA",
+      "venue": "Kraftwerk",
+      "city": "Berlin",
+      "country": "Germany"
+    },
+    {
+      "id": 4,
+      "name": "Félicia Atkison & Carmen Villain",
+      "date": "TBA",
+      "time": "TBA",
+      "venue": "Le Botanique",
+      "city": "Brussels",
+      "country": "Belgium"
+    },
+    {
+      "id": 5,
+      "name": "Gonçalo Penas",
+      "date": "TBA",
+      "time": "TBA",
+      "venue": "ZDB",
+      "city": "Lisbon",
+      "country": "Portugal"
+    },
+    {
+      "id": 6,
+      "name": "Croatian Amor",
+      "date": "TBA",
+      "time": "TBA",
+      "venue": "Mayhem",
+      "city": "Copenhagen",
+      "country": "Denmark"
+    },
+    {
+      "id": 7,
+      "name": "Eartheater",
+      "date": "TBA",
+      "time": "TBA",
+      "venue": "Bassiani",
+      "city": "Tbilisi",
+      "country": "Georgia"
+    }
+  ]
+}

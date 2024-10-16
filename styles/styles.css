@@ -6,6 +6,11 @@ body {
   font-family: "Playfair Display", serif !important;
   color: var(--off-black) !important;
   overflow-x: hidden;
+
+  /* text selection */
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 a {
@@ -22,6 +27,7 @@ footer {
   left: 0;
   right: 0;
   font-size: 22px;
+  z-index: 1000;
 }
 
 nav {
@@ -70,7 +76,7 @@ footer > * {
   line-height: 1.2;
 }
 
-.login-btn {
+.not-allowed {
   cursor: not-allowed;
 }
 
@@ -193,9 +199,11 @@ footer > * {
   border: none;
   border-bottom: 2px solid var(--off-black);
   background-color: transparent;
+
+  /* disable input field */
+  /* pointer-events:none; */
 }
 /*test*/
-
 
 /* ABOUT */
 .about-container {
