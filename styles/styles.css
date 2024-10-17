@@ -120,6 +120,8 @@ footer > * {
 .stretch {
   text-decoration: underline;
   display: inline-block;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 5px;
 }
 
 .gif-container {
@@ -288,4 +290,46 @@ footer > * {
 
 .img-drag {
   cursor: move;
+}
+
+/* EVENTS */
+
+.event-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+  border-left: 2px black solid;
+  padding: 0 20px;
+}
+
+.event-name {
+  font-size: 72px;
+  line-height: 1.2;
+}
+
+.event-date-location {
+  display: flex;
+  column-gap: 20px;
+  font-size: 18px;
+}
+
+.event-ticket-link {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  position: relative;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+
+  img {
+    position: absolute;
+    left: -70%;
+    top: -100%;
+  }
+}
+
+.event-ticket-link:hover {
+  transform: rotate(-20deg);
+  color: #6167ff;
 }

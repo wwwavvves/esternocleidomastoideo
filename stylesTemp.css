@@ -1,5 +1,10 @@
 body {
   font-family: "Playfair Display", serif !important;
+  color: #28282a;
+}
+
+a {
+  color: transparent !important;
 }
 
 .container {

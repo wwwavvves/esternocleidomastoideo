@@ -21,7 +21,18 @@ function displayEvents(events) {
     .reverse()
     .forEach((element) => {
       let html = `
-        ${element.name}
+        <div class="event-details">
+          <div>
+            <div class="event-name">${element.name}</div>
+            <div class="event-date-location">
+              <div>${element.date} - ${element.time}</div>
+              <div>${element.venue}, ${element.city} (${element.country})</div>
+            </div>  
+          </div>
+          <div class="event-ticket-link">
+            <img src="../images/event-star.svg">
+            tickets
+          </div>
       `;
       eventsContainer.insertAdjacentHTML("afterbegin", html);
     });
