@@ -45,14 +45,11 @@ fetch("../data/news.json")
 // Function to display the news items in the container
 function displayNews(news) {
   const newsContainer = document.querySelector("#news-container");
-  news
-    .slice()
-    .reverse()
-    .forEach((element) => {
+  news.forEach((element) => {
       let html = `
         <div class="item">
             <h6>${element.title}</h6>
-          ${element.text}
+            <p>${element.text}</p>
         </div>
       `;
       newsContainer.insertAdjacentHTML("afterbegin", html);
@@ -63,7 +60,7 @@ function displayNews(news) {
 function initializeDragAndDrop() {
   let dragItems = document.querySelectorAll(".item");
   let container = document.querySelector("#news-container");
-  let maxZIndex = 14; // Starting z-index to make sure the dragged item always comes to the front
+  let maxZIndex = 100; // Starting z-index to make sure the dragged item always comes to the front
 
   dragItems.forEach((item) => {
     // Initially set random positions for the items
@@ -132,42 +129,4 @@ function initializeDragAndDrop() {
       el.style.transform = `translate3d(${xPos}px, ${yPos}px, 0)`;
     }
   });
-
-
-
-
-
-
-
-// Fetch the JSON data
-// fetch("../data/news.json")
-//   .then((response) => {
-//     if (!response.ok) {
-//       throw new Error("Network response was not ok " + response.statusText);
-//     }
-//     return response.json(); // Parse the JSON from the response
-//   })
-//   .then((data) => {
-//     // Handle the data here
-//     displayNews(data.news);
-//   })
-//   .catch((error) => {
-//     console.error("There has been a problem with your fetch operation:", error);
-//   });
-
-// function displayNews(news) {
-//     console.log(news);
-//   const newsContainer = document.querySelector("#news-container");
-//   news
-//     .slice()
-//     .reverse()
-//     .forEach((element) => {
-//       let html = `
-//         <div class="item">
-//             <h6>${element.title}</h6>
-//           ${element.text}
-//         </div>
-//       `;
-//       newsContainer.insertAdjacentHTML("afterbegin", html);
-//     });
 }
