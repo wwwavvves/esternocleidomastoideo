@@ -8,9 +8,9 @@ body {
   overflow-x: hidden;
 
   /* text selection */
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
+  /*-webkit-user-select: none;  Safari */
+  /*-ms-user-select: none;  IE 10 and IE 11 */
+  /*user-select: none;  Standard syntax */
 }
 
 a {
@@ -274,8 +274,17 @@ footer > * {
 }
 
 .artist-bio {
-  margin-bottom: 100px;
+  margin-bottom: 60px;
   text-align: center;
+  font-size: 48px;
+}
+
+.artist-store-btn {
+  display: block;
+  margin: 0 auto;
+  background-color: transparent;
+  padding: 20px;
+  margin-bottom: 100px;
 }
 
 .icon {
@@ -291,10 +300,6 @@ footer > * {
 
 .accordion-btn.active {
   background-color: transparent;
-}
-
-.panel p {
-  font-size: 48px;
 }
 
 .img-drag {
@@ -356,6 +361,10 @@ footer > * {
 }
 
 @media (max-width: 576px) {
+  .modal-body {
+    font-size: 40px;
+  }
+
   .hero-section {
     margin-top: 0 !important;
   }
@@ -377,19 +386,67 @@ footer > * {
       align-items: center;
       font-weight: bold;
     }
+
     p {
       font-size: 40px;
       line-height: 1.2;
-      background-image: linear-gradient(
+      display: inline;
+      /* background-image: linear-gradient(
         transparent,
         rgba(255, 255, 255, 0.8) 20%,
         rgba(255, 255, 255, 0.8) 80%,
         transparent
-      );
+      ); */
+    }
+
+    .stretch {
+      text-decoration-thickness: 4px;
+      text-underline-offset: 4px;
+    }
+
+    .homepage-stretch-link {
+      font-size: 40px;
+      line-height: 1.2;
     }
   }
 
   #news-container {
     display: none;
+  }
+
+  .est-bio {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+
+  .links {
+    font-size: 40px;
+  }
+
+  .accordion-btn {
+    padding: 6px 0;
+  }
+
+  .artist-id {
+    display: none;
+  }
+
+  .artist-name {
+    font-size: 40px;
+  }
+
+  .draggable {
+    display: none;
+  }
+
+  .artist-bio {
+    font-size: 20px;
+    text-align: left;
+    margin: 30px 10px 40px;
+  }
+
+  .stretch-gif {
+    width: 90vw;
+    height: auto;
   }
 }

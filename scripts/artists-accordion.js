@@ -25,8 +25,8 @@ function displayArtists(artists) {
         <div class="acc-item">
               <button class="accordion-btn">
                 <div class="artist-name"><span class="artist-id">${elementIdPadded}</span>${
-        element.name
-      }</div>
+                element.name
+                }</div>
                 <i class="icon fa-solid fa-chevron-down"></i>
               </button>
               <div class="panel">
@@ -41,6 +41,7 @@ function displayArtists(artists) {
                 <p class="artist-bio">
                 ${element.bio}
                 </p>
+                <button class="artist-store-btn">${element.name}'s store</button>
               </div>
         </div>
       `;
