@@ -8,9 +8,9 @@ body {
   overflow-x: hidden;
 
   /* text selection */
-  /*-webkit-user-select: none;  Safari */
-  /*-ms-user-select: none;  IE 10 and IE 11 */
-  /*user-select: none;  Standard syntax */
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 a {
@@ -71,7 +71,12 @@ footer > * {
   background-image: none !important;
   width: auto !important;
   padding: 0 20px !important;
+  opacity: 1 !important;
 }
+
+/* .btn-close:hover {
+  color: red !important;
+} */
 
 .btn-close:focus {
   box-shadow: none !important;
@@ -296,6 +301,7 @@ footer > * {
   background-color: transparent;
   padding: 20px;
   margin-bottom: 100px;
+  cursor: not-allowed !important;
 }
 
 .icon {
@@ -376,6 +382,7 @@ footer > * {
 .event-ticket-link:hover {
   transform: rotate(-20deg);
   color: #6167ff;
+  cursor: not-allowed;
 }
 
 @media (max-width: 992px) {
